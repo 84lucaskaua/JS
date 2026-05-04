@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo usando let</h1>
+    <label for="">Digite um numero para somar</label>
+    <input type="number" id="numero">
+    <button onclick="somar()">somar</button>
+
+        <p id="resultado"></p>
+    <script> 
+    Function somar() {
+        let numero3 = document.getElementById("numero3").value;
+        let numero2 = document.getElementById("numero2").value;
+        let resultado = parseInt(numero3) + parseInt(numero2);
+        document.getElementById("resultado").innerHTML = "O resultado é: " + resultado;
+
+
+
+
+    }
+    </script>
+</body>
+</html>
