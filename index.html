@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bootstrap</title>
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<link rel="stylesheet" href="./css/style.css">
-<script src="./js/javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-grid.css">
 </head>
-<div>
-    <div class="form-boot-01">
-    <h1>Página de login</h1>
-    <p>Entre com seu usuario e senha.</p>
-    <div class="mb-3"> 
-  <label for="exampleFormControlInput1" class="form-label">Email ou Usuario</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  <label for="exampleFormControlInput1" class="form-label">Senha</label>
-  <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Digite sua senha">
-</div>
-</div>
-<div class="btn-1">
+<body>
+    <div class="texto">
+    <H1>Formulario teste</H1>
+    </div>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="name" name="name" required placeholder="Seu nome completo">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required placeholder="Seu email">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="message" name="message" rows="3" required placeholder="Sua mensagem"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
     
-
-<button type="button" class="btn btn-danger" onclick="login()">Login</button>
-</div>
-</div>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
- </div>
 </body>
 </html>
